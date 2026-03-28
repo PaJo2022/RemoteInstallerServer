@@ -1,0 +1,8 @@
+cd ~/RemoteInstallerServer
+cat > .gitignore << 'EOF'
+node_modules/
+apks/
+*.apk
+*.log
+.env
+EOF
